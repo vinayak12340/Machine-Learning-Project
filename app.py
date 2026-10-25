@@ -327,6 +327,7 @@ with c3:
     """, unsafe_allow_html=True)
 
 
+
 st.markdown("""
 <div class="footer">
     <div class="footer-credits">
@@ -334,7 +335,7 @@ st.markdown("""
         <div class="footer-person">
             <div class="footer-label">Developed by</div>
             <div class="footer-name">Vinayak Sharma</div>
-            <div class="footer-role">BS Computer Science(UoD)</div>
+            <div class="footer-role">BSc Computer Science</div>
         </div>
 
         <div class="footer-person">
@@ -355,9 +356,7 @@ st.markdown("""
     </div>
 
     <div class="footer-project">
-         Sentiment Analysis Research Project Using NLP
+        Amazon Alexa Sentiment Analysis Research Project
     </div>
 </div>
 """, unsafe_allow_html=True)
-
-
