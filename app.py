@@ -220,7 +220,7 @@ st.markdown("""
   <div class="hero-icon">🎧</div>
   <div class="hero-copy">
     <div class="eyebrow">Machine Learning Research Project</div>
-    <h1>Amazon Alexa Sentiment Analyzer</h1>
+    <h1> Review Lens Sentiment Analyzer</h1>
     <p>Three-class sentiment analysis for customer reviews.<br>
     Classify reviews as Positive, Neutral, or Negative.</p>
   </div>
@@ -301,7 +301,7 @@ st.markdown("""
   <strong>Ms. Purnima Bindal</strong><br>
   Assistant Professor, University of Delhi
   <br><br>
-  <span>Amazon Alexa Sentiment Analysis Research Project</span>
+  <span>Sentiment Analysis Research Project NLP </span>
 </div>
 
 """, unsafe_allow_html=True)
