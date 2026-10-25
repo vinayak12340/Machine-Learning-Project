@@ -326,27 +326,23 @@ with c3:
     </div>
     """, unsafe_allow_html=True)
 
+
 st.markdown("""
-
-
 <div class="footer">
     <div class="credits">
         <div class="credit-block">
             <div>Developed by</div>
             <div class="student-name">Vinayak Sharma</div>
         </div>
-
         <div class="credit-block">
             <div>Under the guidance of</div>
             <div class="supervisor-name">Ms. Purnima Bindal</div>
             <div>Assistant Professor, University of Delhi</div>
         </div>
     </div>
-
     <div class="project-name">
         Amazon Alexa Sentiment Analysis Research Project
     </div>
 </div>
-
-
 """, unsafe_allow_html=True)
+
