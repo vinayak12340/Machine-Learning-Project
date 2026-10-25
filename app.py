@@ -326,33 +326,31 @@ with c3:
     </div>
     """, unsafe_allow_html=True)
 
-
-
 st.markdown("""
 <div class="footer">
     <div class="footer-credits">
-
         <div class="footer-person">
             <div class="footer-label">Developed by</div>
             <div class="footer-name">Vinayak Sharma</div>
-            <div class="footer-role">BSc Computer Science</div>
+            <div class="footer-role">Computer Science</div>
         </div>
 
         <div class="footer-person">
-            <div class="footer-label">Project Supervisor</div>
+            <div class="footer-label">Under the guidance of</div>
             <div class="footer-name">Ms. Purnima Bindal</div>
             <div class="footer-role">
                 Assistant Professor<br>
                 University of Delhi
             </div>
         </div>
-
     </div>
 
     <div class="footer-contact">
-        <span>Contact</span>
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/YOUR_USERNAME"
+           target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/YOUR_PROFILE"
+           target="_blank">LinkedIn</a>
+        <a href="mailto:YOUR_EMAIL@example.com">Email</a>
     </div>
 
     <div class="footer-project">
