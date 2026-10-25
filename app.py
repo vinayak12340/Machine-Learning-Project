@@ -292,10 +292,16 @@ with c3:
     """, unsafe_allow_html=True)
 
 st.markdown("""
+
 <div class="footer">
-  <div>Developed under the guidance of</div>
+  <div>Developed by</div>
+  <strong>Vinayak Sharma</strong>
+  <br><br>
+  <div>Under the guidance of</div>
   <strong>Ms. Purnima Bindal</strong><br>
-  Assistant Professor, University of Delhi<br>
+  Assistant Professor, University of Delhi
+  <br><br>
   <span>Amazon Alexa Sentiment Analysis Research Project</span>
 </div>
+
 """, unsafe_allow_html=True)
