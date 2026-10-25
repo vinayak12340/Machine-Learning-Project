@@ -328,25 +328,36 @@ with c3:
 
 
 st.markdown("""
-
 <div class="footer">
-    <div class="credits">
-        <div class="credit-block">
-            <div>Developed by</div>
-            <div class="student-name">Vinayak Sharma</div>
+    <div class="footer-credits">
+
+        <div class="footer-person">
+            <div class="footer-label">Developed by</div>
+            <div class="footer-name">Vinayak Sharma</div>
+            <div class="footer-role">BS Computer Science(UoD)</div>
         </div>
 
-        <div class="credit-block">
-            <div>Under the guidance of</div>
-            <div class="supervisor-name">Ms. Purnima Bindal</div>
-            <div>Assistant Professor, University of Delhi</div>
+        <div class="footer-person">
+            <div class="footer-label">Project Supervisor</div>
+            <div class="footer-name">Ms. Purnima Bindal</div>
+            <div class="footer-role">
+                Assistant Professor<br>
+                University of Delhi
+            </div>
         </div>
+
     </div>
 
-    <div class="project-name">
-        Review Lens Sentiment Analysis Research Project using NLP 
+    <div class="footer-contact">
+        <span>Contact</span>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="footer-project">
+         Sentiment Analysis Research Project Using NLP
     </div>
 </div>
-
 """, unsafe_allow_html=True)
+
 
