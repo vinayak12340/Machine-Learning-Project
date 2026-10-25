@@ -153,21 +153,56 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
     line-height: 1.45;
     overflow-wrap: anywhere;
 }
+
 .footer {
+    background: #111827;
+    color: #D1D5DB;
+    border: 1px solid #273449;
+    border-radius: 14px;
+    margin-top: 1.5rem;
+    padding: 1.1rem 1.5rem;
     text-align: center;
-    border: 1px solid #E1E7FF;
-    border-radius: 16px;
-    margin-top: 2.1rem;
-    padding: 1.4rem 1rem;
-    background: linear-gradient(110deg, #F1F4FF, #F9FAFF);
-    color: var(--muted);
-    font-size: 0.84rem;
-    line-height: 1.8;
+    font-size: 0.82rem;
+    line-height: 1.5;
 }
-.footer strong {
-    color: var(--ink);
+
+.footer .credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer .credit-block {
+    padding: 0.25rem 0.5rem;
+}
+
+.footer .student-name,
+.footer .supervisor-name {
+    color: #FFFFFF;
     font-size: 1rem;
+    font-weight: 750;
 }
+
+.footer .project-name {
+    color: #A5B4FC;
+    font-size: 0.78rem;
+    margin-top: 0.65rem;
+}
+
+@media (max-width: 760px) {
+    .footer {
+        padding: 1rem 0.75rem;
+        margin-top: 1rem;
+    }
+
+    .footer .credits {
+        flex-direction: column;
+        gap: 0.65rem;
+    }
+}
+
 div[data-testid="stAlert"] { border-radius: 12px; }
 
 /* Mobile and narrow-screen adjustments */
@@ -293,15 +328,25 @@ with c3:
 
 st.markdown("""
 
+
 <div class="footer">
-  <div>Developed by</div>
-  <strong>Vinayak Sharma</strong>
-  <br><br>
-  <div>Under the guidance of</div>
-  <strong>Ms. Purnima Bindal</strong><br>
-  Assistant Professor, University of Delhi
-  <br><br>
-  <span>Sentiment Analysis Research Project NLP </span>
+    <div class="credits">
+        <div class="credit-block">
+            <div>Developed by</div>
+            <div class="student-name">Vinayak Sharma</div>
+        </div>
+
+        <div class="credit-block">
+            <div>Under the guidance of</div>
+            <div class="supervisor-name">Ms. Purnima Bindal</div>
+            <div>Assistant Professor, University of Delhi</div>
+        </div>
+    </div>
+
+    <div class="project-name">
+        Amazon Alexa Sentiment Analysis Research Project
+    </div>
 </div>
+
 
 """, unsafe_allow_html=True)
