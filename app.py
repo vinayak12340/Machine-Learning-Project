@@ -9,7 +9,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 st.set_page_config(
-    page_title="Amazon Alexa Sentiment Analyzer",
+    page_title="Sentiment Analyzer",
     page_icon="🎧",
     layout="wide",
     initial_sidebar_state="collapsed",
