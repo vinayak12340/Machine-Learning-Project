@@ -82,7 +82,7 @@ st.markdown("""
 <section class="hero">
   <div class="hero-icon">🎧</div>
   <div>
-    <h1>Amazon Alexa Sentiment Analyzer</h1>
+    <h1> Review Lens Sentiment Analyzer</h1>
     <p>Machine-learning-based three-class sentiment analysis.<br>
     Classify customer reviews as Positive, Neutral, or Negative.</p>
   </div>
@@ -205,7 +205,7 @@ st.markdown(f"""
       {vinayak_photo_html}
       <div class="footer-label">Developed by</div>
       <div class="footer-name">Vinayak Sharma</div>
-      <div class="footer-role">Computer Science</div>
+      <div class="footer-role">Computer Science Undegrad DU'28</div>
       <div class="footer-role">VinayakSharma1911@gmail.com</div>
     </div>
     <div class="footer-person">
