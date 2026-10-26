@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 st.set_page_config(
-    page_title="Alexa Sentiment Analyzer",
+    page_title="Sentiment Analyzer",
     page_icon="🎧",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -69,7 +69,7 @@ st.markdown("""
 <section class="hero">
   <div class="hero-icon">🎧</div>
   <div>
-    <h1>Amazon Alexa Sentiment Analyzer</h1>
+    <h1> Sentiment Analyzer</h1>
     <p>Machine-learning-based three-class sentiment analysis.<br>
     Classify customer reviews as Positive, Neutral, or Negative.</p>
   </div>
@@ -191,7 +191,7 @@ st.markdown("""
     <div class="footer-person">
       <div class="footer-label">Developed by</div>
       <div class="footer-name">Vinayak Sharma</div>
-      <div class="footer-role">Computer Science</div>
+      <div class="footer-role">VinayakSharma1911@gmail.com</div>
     </div>
     <div class="footer-person">
       <div class="footer-label">Under the guidance of</div>
@@ -200,9 +200,9 @@ st.markdown("""
     </div>
   </div>
   <div class="footer-contact">
-    <a href="https://github.com/" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/vinayak12340">GitHub</a>
+    <a href="https://www.linkedin.com/in/vinayak-sharma-480542353/?isSelfProfile=true">LinkedIn</a>
   </div>
-  <div class="footer-project">Amazon Alexa Sentiment Analysis Research Project</div>
+  <div class="footer-project">Sentiment Analysis NLP Project</div>
 </div>
 """, unsafe_allow_html=True)
