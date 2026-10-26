@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).parent
-MODEL_DIR = BASE_DIR / "models"
+MODEL_DIR = BASE_DIR
 
 # ---------- Styling ----------
 st.markdown("""
