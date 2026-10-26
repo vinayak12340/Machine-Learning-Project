@@ -220,6 +220,6 @@ st.markdown(f"""
     <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
   </div>
-  <div class="footer-project">Amazon Alexa Sentiment Analysis Research Project</div>
+  <div class="footer-project">Sentiment Analysis Using NLP </div>
 </div>
 """, unsafe_allow_html=True)
