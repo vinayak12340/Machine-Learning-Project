@@ -1,7 +1,7 @@
-# Amazon Alexa Sentiment Analysis
+# Review Lens Sentiment Analysis NLP Project
 
 ## Project Description
-This research project studies three-class sentiment analysis of Amazon Alexa customer reviews. It aims to classify a review as **Positive**, **Neutral**, or **Negative** using traditional machine-learning algorithms and compare their performance.
+This research project studies three-class sentiment analysis of customer reviews. It aims to classify a review as **Positive**, **Neutral**, or **Negative** using traditional machine-learning algorithms and compare their performance.
 
 The project workflow includes exploratory data analysis, text cleaning and preprocessing, text feature extraction, model training, and evaluation. A Streamlit interface is planned so users can enter a review, select a trained model, and view the predicted sentiment. Probability information should be shown only when it is supported by the selected model.
 
@@ -18,16 +18,6 @@ The project workflow includes exploratory data analysis, text cleaning and prepr
 - **Classifiers:** Multinomial Naive Bayes, Logistic Regression, Linear Support Vector Machine (LinearSVC), Random Forest
 - **Evaluation:** Accuracy, macro precision, macro recall, macro-F1, classification report
 - **Data split:** Stratified 60:40 train-test split with `random_state=42` (as used in the current methodology)
-
-## Dataset and Labels
-Dataset filename: `amazon_alexa.tsv`
-
-The three-class target is derived from the `rating` column:
-- Ratings 1–2: Negative
-- Rating 3: Neutral
-- Ratings 4–5: Positive
-
-Do not use `rating` as a model input because it is used to derive the target label. The original binary `feedback` column is not the three-class target.
 
 ## Setup Guidance
 
