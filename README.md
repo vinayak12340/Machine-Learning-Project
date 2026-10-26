@@ -56,9 +56,3 @@ Streamlit will show a local URL, usually `http://localhost:8501`.
 
 ## Project Guidance
 **Developed under the guidance of Ms. Purnima Bindal, Assistant Professor, University of Delhi.**
-
-## Current Status
-Project documentation and dependency list are prepared. Update this section when the trained models and Streamlit prediction pipeline are integrated.
-
-## Dataset and Repository Note
-Check the dataset's usage terms before sharing it publicly. Do not upload passwords, API keys, private information, or other secrets to GitHub.
