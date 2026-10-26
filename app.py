@@ -49,7 +49,17 @@ div[data-testid="stSelectbox"] div[data-baseweb="select"]>div { background:white
 .footer { background:#111827; color:#D1D5DB; border:1px solid #273449; border-radius:14px; margin-top:1.5rem; padding:1.4rem 1.2rem 1rem; text-align:center; font-size:.84rem; line-height:1.6; }
 .footer-credits { display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; gap:2rem; }
 .footer-person { flex:1; min-width:0; text-align:center; padding:.4rem; }
-.footer-photo { width:88px; height:88px; object-fit:cover; border-radius:50%; border:3px solid #A5B4FC; display:block; margin:0 auto .7rem; }
+.footer-photo {
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    object-position: center 35%;
+    transform: scale(1.08);
+    border-radius: 50%;
+    border: 3px solid #A5B4FC;
+    display: block;
+    margin: 0 auto .7rem;
+}
 .footer-label { color:#C4B5FD; font-size:.82rem; }
 .footer-name { color:#FFFFFF; font-size:1rem; font-weight:750; }
 .footer-role { color:#D1D5DB; font-size:.82rem; }
