@@ -171,17 +171,6 @@ if predict_clicked:
                     st.info("This SVM model does not provide probability estimates by default. The predicted sentiment is shown without a confidence meter.")
             except Exception as exc:
                 st.error(f"Prediction failed: {exc}. Check the app logs if the issue continues.")
-
-st.markdown('<div class="section-title">Research methodology</div>', unsafe_allow_html=True)
-st.markdown('<div class="section-caption">The main techniques used in this comparative study.</div>', unsafe_allow_html=True)
-c1, c2, c3 = st.columns(3)
-with c1:
-    st.markdown('<div class="info-card"><div class="label">01 · Text representation</div><div class="value">Bag of Words (BoW)<br>TF-IDF</div></div>', unsafe_allow_html=True)
-with c2:
-    st.markdown('<div class="info-card"><div class="label">02 · Classifiers</div><div class="value">Naive Bayes, Logistic Regression, SVM, Random Forest</div></div>', unsafe_allow_html=True)
-with c3:
-    st.markdown('<div class="info-card"><div class="label">03 · Evaluation</div><div class="value">Accuracy, Macro Precision, Macro Recall, Macro-F1</div></div>', unsafe_allow_html=True)
-
 def image_as_base64(image_path):
     if not image_path.exists():
         return None
