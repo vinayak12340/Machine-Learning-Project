@@ -7,7 +7,7 @@ import nltk
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-
+import streamlit.components.v1 as components
 st.set_page_config(
     page_title="Sentiment Analyzer",
     page_icon="🎧",
@@ -222,4 +222,9 @@ st.markdown(f"""
   </div>
   <div class="footer-project">Sentiment Analysis Using NLP </div>
 </div>
+
 """, unsafe_allow_html=True)
+components.html("""
+ <a href='https://www.acadoo.de/leistungen/ghostwriter-doktorarbeit/'>Doktorarbeit Coaching</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=b41671de5569b69ceee0ab86fa8997d46a221246'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1686562/t/2"></script>
+""", height=100, scrolling=False)
